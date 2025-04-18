@@ -15,7 +15,7 @@ public class Rolar {
         int vitoriaJogador =0;
         int vitoriaPc =0;
         int decisao;
-        for(int tentativas=0;tentativas<3;tentativas++){
+        for(int tentativas=1;tentativas<3;tentativas++){
             do{
                 System.out.println("Best out of 3 okay?");
                 System.out.println("Round: "+tentativas);
@@ -31,13 +31,16 @@ public class Rolar {
 
                 if(resultadoJogador>resultadoPc){
                     System.out.println("You won this time but i´m coming for you");
+                    System.out.println("----------------------------------");
                     vitoriaJogador++;
                 }else if(resultadoJogador<resultadoPc){
                     System.out.println("The matrix is building up");
+                    System.out.println("----------------------------------");
                     vitoriaPc++;
 
                 }else{
                     System.out.println("Tied game");
+                    System.out.println("----------------------------------");
                 }
                 tentativas++;
             }while(tentativas<3 && decisao!=0);
