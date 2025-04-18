@@ -22,6 +22,7 @@ public class Rolar {
                 decisao=scanner.nextInt();
                 if(decisao ==0){
                     System.out.println("Humans used to be braver");
+                    break;
                 }
                 if(decisao !=1){
                     System.out.println("Just follow the rules");
