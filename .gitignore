@@ -1,0 +1,16 @@
+# IDE - IntelliJ
+.idea/
+*.iml
+
+# Diretório de compilação
+out/
+
+# Arquivos de log
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Backup / temporários
+*~
